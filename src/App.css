@@ -1,0 +1,8 @@
+.comp{
+    text-decoration:line-through;
+    background-color: greenyellow;
+    width: 200px;
+}
+.item{
+    margin: 20px;
+}
