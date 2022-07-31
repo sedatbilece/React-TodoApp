@@ -7,11 +7,14 @@ const TodoListView = () => {
 	const todos = useSelector((state) => state.todos);
 
 	return (
-		<ul className='list-group'>
+		<div><h3>List :</h3>
+		<hr></hr>
+			<ul className='list-group'>
 			{todos.map((todo) => (
 				<TodoItem id={todo.id} title={todo.title} completed={todo.completed} />
 			))}
 		</ul>
+		</div>
 	);
 };
 

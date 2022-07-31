@@ -25,7 +25,7 @@ const ToDoItem = ({ id, title, completed }) => {
                     ></input>
                     {title}
                
-                <button className='item' onClick={handleDeleteClick} >X</button>
+                <button className='item btn' onClick={handleDeleteClick} >X</button>
             </div>
         </li>
     );
