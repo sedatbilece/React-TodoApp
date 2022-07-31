@@ -7,7 +7,7 @@ const TodoListView = () => {
 	const todos = useSelector((state) => state.todos);
 
 	return (
-		<div><h3>List :</h3>
+		<div><h3 style={{textAlign:'center'}} > List </h3>
 		<hr></hr>
 			<ul className='list-group'>
 			{todos.map((todo) => (

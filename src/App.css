@@ -1,6 +1,6 @@
 .comp{
     text-decoration:line-through;
-    background-color: greenyellow;
+    background-color: rgba(175, 239, 79,0.5);
    
 }
 .item{
@@ -9,8 +9,7 @@
 .App{
     width: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     flex-direction: column;
 }
 
@@ -32,4 +31,14 @@ body{
 .btn:active{
     transform: scale(0.95);
     transition: ease-in-out 0.2s;
+    background-color: brown;
+}
+.todoitem{
+    user-select: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-group{
+   list-style:none;
 }

@@ -15,14 +15,7 @@ const ToDoItem = ({ id, title, completed }) => {
     };
     return (
         <li className={completed===true ?'comp':''}>
-            <div >
-                
-                    <input
-                        type='checkbox'
-                        className='item'
-                        onClick={handleCheckboxClick}
-                        checked={completed}
-                    ></input>
+            <div  onClick={handleCheckboxClick} className='todoitem'>
                     {title}
                
                 <button className='item btn' onClick={handleDeleteClick} >X</button>
